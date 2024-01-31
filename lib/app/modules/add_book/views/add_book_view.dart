@@ -15,6 +15,7 @@ class AddBookView extends GetView<AddBookController> {
       ),
       body:  Center(
         child: Form(
+          key: controller.formKey,
           child: Column(
             children: [
               TextFormField(
